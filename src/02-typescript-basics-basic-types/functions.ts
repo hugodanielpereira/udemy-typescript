@@ -36,10 +36,10 @@ type User = {
 let user: User = {
     name: 'Max', 
     age: 32,
-    greet(message: string) {
+    greeting(message: string) {
         console.log(message + ' ' + this.name);
         return this.name;
     }
 };
 
-user.greet('Hi there - I am');
+user.greeting('Hi there - I am');
